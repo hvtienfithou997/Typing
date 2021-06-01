@@ -1,0 +1,352 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+    body .btn {
+        font-size: 14px;
+    }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.number-page {
+    list-style: none;
+    margin: 37px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    padding-left: 0;
+}
+
+    .number-page a {
+        color: #000000;
+    }
+
+.nb-txt {
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+    .nb-txt.nb-hover:hover {
+        background: #10CF84;
+        text-align: center;
+        color: #ffffff;
+    }
+
+.page-current {
+    background: #10CF84;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hideAlert {
+    opacity: 0;
+    -webkit-animation: fadeOut 5s;
+    animation: fadeOut 5s;
+}
+
+#box_thuoc_tinh .col-md-4 {
+    overflow-x: auto;
+}
+
+#box_thuoc_tinh {
+    overflow-y: scroll;
+    max-height: 150px;
+}
+
+.list-items li {
+    overflow-x: auto
+}
+
+.checkbox-bootstrap.checkbox-lg.max {
+    width: 100%;
+}
+
+    .checkbox-bootstrap.checkbox-lg.max input[type="checkbox"] {
+        float: right;
+    }
+
+#data_tai_khoan .checkbox {
+    border-bottom: 2px solid #ccc;
+    padding-top: 7px;
+}
+
+/*-------------------------TYPING------------------------- */
+#speedtest-main #row1 {
+    position: relative;
+    color: #111111;
+}
+
+#speedtest-main #input-row {
+    padding: 4px;
+    background: #A7C8E7;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#input-row #inputfield {
+    border-top: 1px solid #575757;
+    height: 50px;
+    border-right: 1px solid #6b7a89;
+    border-bottom: 1px solid #70869b;
+    border-left: 1px solid #525a62;
+    font-size: 2em;
+    line-height: 1em;
+    background: url(https://img.10fastfingers.com/img/layout/sprite-main.png) 0px -60px no-repeat;
+    font-family: Times New Roman, Times, serif;
+    color: #333;
+}
+
+#input-row #timer {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.6em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white;
+    background: #3c4d5c;
+}
+
+#speedtest-main #words {
+    padding: 6px 12px 30px 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 110px;
+    overflow: hidden;
+    color: #1d4851;
+    font-family: Times New Roman, Times, serif;
+    font-size: 2.2em;
+    line-height: 1.6em;
+    background: #ffffff;
+    border: 1px solid #8eb6d8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+    /* text-decoration: line-through; */
+}
+
+.highlight-wrong {
+    background: red;
+}
+
+#speedtest-main #row1 span {
+    padding: 3px 5px 3px 5px;
+    margin-right: -7px;
+}
+
+#speedtest-main .hide-time {
+    color: #3c4d5c !important;
+}
+
+#speedtest-main #reload-btn {
+    height: 50px;
+}
+
+#speedtest-main .highlight {
+    background: #dddddd;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#speedtest-main #inputstream {
+    display: none;
+}
+
+#speedtest-main #wordlist {
+    display: none;
+}
+
+#speedtest-main #error-box {
+    display: none;
+    margin-top: 100px;
+    background: white;
+    padding: 20px;
+    font-size: 1.4em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+kbd.kbd1 {
+    background-color: green;
+}
+
+kbd.kbd2 {
+    background-color: red;
+}
+
+.show_expired.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    *z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.show_expired .modal-content {
+    position: absolute;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: none;
+    width: 20%;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    top: 2%;
+    right: 1%;
+    padding: 2px;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.show_expired .modal-body {
+    *padding: 2px 16px;
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    width: auto;
+}
+
+.show_expired.start .modal-body {
+    background-color: #ffc107;
+}
+
+.btn-width {
+    min-width: 105px;
+}
+
+.table td, .table th {
+    vertical-align: baseline;
+}
+
+.table thead th {
+    vertical-align: baseline;
+}
